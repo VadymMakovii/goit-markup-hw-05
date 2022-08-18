@@ -288,7 +288,7 @@ img {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   opacity: 1;
-  transition: opacity var(--transition-basic);
+  transition: opacity var(--transition-basic), visibility var(--transition-basic);
 }
 
 .backdrop.is-hidden {
